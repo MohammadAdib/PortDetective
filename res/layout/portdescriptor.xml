@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/portTextBox"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="18dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/portDescriptorButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/describeString"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/descriptionConsole"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/decriptionconsoleString" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/lookUp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/WebString"
+        android:textColor="@color/linkColor"
+        android:textSize="13dp" />
+
+</LinearLayout>
