@@ -1,4 +1,4 @@
-# PortDetective
+# Port Detective
 
 Port Detective is a network port scanning tool designed to detect open ports on hosts on the local network. The port scanning algorithm is capable of scanning all 65535 ports in under a minute or two.
 
