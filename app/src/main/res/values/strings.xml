@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Port Detective</string>
+    <string name="start_scanning">START SCANNING</string>
+    <string name="end">End</string>
+    <string name="dash">-</string>
+    <string name="start">Start</string>
+    <string name="port_range">Port Range</string>
+    <string name="period">.</string>
+    <string name="host_ip_address">Host IP Address</string>
+    <string name="port_lookup">Port # Lookup</string>
+    <string name="about">About</string>
+    <string name="current_ip">Current IP: <b>%s</b></string>
+    <string name="close">Close</string>
+    <string name="export">Export</string>
+
+    <string name="about1">What does this application do?</string>
+    <string name="about3">What is an IP or port?</string>
+    <string name="about5">Networking and it\'s importance</string>
+    <string name="about2">This application detects open ports on a local network. It is capable of connecting to any host on the local network and opening TCP sockets in order to determine which ports are open. The user must specify the host IP address and a range of ports. It also comes with a handy Port Encyclopedia which allows for looking up the function of a given port.</string>
+    <string name="about4">An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network. A port can be symbolized as a road to a destination. Ports allow devices to talk to other hosts on the internet on multiple &quot;roads&quot; or pathways, enabling simultaneous network communication. </string>
+    <string name="about6">In the world of computers, networking is the practice of linking two or more computing devices together for the purpose of sharing data. It is also one of the most important, if not the most important, innovation that shapes who we are today. Thanks to networking, communication around the world has become instant, and a vast amount of knowledge can now be accessed from anywhere in the world, making it one of the most influential inventions in human history known as the internet.</string>
+    <string name="activity4">About</string>
+    <string name="port_number">Port #</string>
+    <string name="search">Search</string>
+    <string name="lookup_info">Look up the function of a given port number</string>
+    <string name="lookup_web">Look up port %s on the web</string>
+    <string name="invalid_entry">Invalid entry. Ports may only range from 0 to 49151.</string>
+    <string name="error_parse">Error occurred while trying to parse port number. Please try again!</string>
+    <string name="port_website">http://www.speedguide.net/port.php?port=%s</string>
+    <string name="port_enc">Port Encyclopedia</string>
+    <string name="no_network">No network connection detected.</string>
+    <string name="invalid_port">Invalid port entries. Ports may range from 1 to 65535.</string>
+    <string name="invalid_range">Invalid port ranges.</string>
+    <string name="invalid_ip_port">Invalid Entries. Please provide a valid IP Address and port range.</string>
+    <string name="invalid_ip">Invalid IP Address.</string>
+    <string name="error">Error</string>
+    <string name="current_ip_display"><![CDATA[Current IP: <b>%s]]></string>
+    <string name="scan_completed">100% Port Scan Completed</string>
+    <string name="host_not_reachable">Provided host cannot be reached.</string>
+    <string name="timeout">Connection timed out</string>
+    <string name="resolving_host">Resolving Host%s</string>
+    <string name="querying_port">%d%% Querying port %d%s</string>
+    <string name="error_saving">Error occurred while saving log.</string>
+    <string name="scanning_not_finished">Scanning not yet finished.</string>
+    <string name="saved_log">Saved log to: %s//%s@%s.txt</string>
+    <string name="date_format">MM-dd-yyyy hh:mm:ss a</string>
+    <string name="permission_denied">Permission denied</string>
+</resources>
